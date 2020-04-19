@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Hello (formal)",
+    "answer": "Namaste"
+  },
+  {
+    "question": "Goodbye(formal)",
+    "answer": "Alvida"
+  },
+  {
+    "question": "Hello(informal)",
+    "answer": "Bolo"
+  },
+  {
+    "question": "Goodbye(informal)",
+    "answer": "Bhago"
+  }
+]
