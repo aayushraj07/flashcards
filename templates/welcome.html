@@ -11,9 +11,15 @@
         <em>Getting started</em>
         on<a href="https://www.pluralsight.com"> PluralSight </a>
     </p>
-    <img src="/static/flasklogo.png">
-    <p>
-        {{message}}
-    </p>
+
+    <ul>
+        {% for card in cards %}
+            <li>
+                <a href="{{ url_for('card_view', index=loop.index0) }}">
+                    {{ card.question }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
